@@ -1,4 +1,4 @@
-//Caso queira baixar o programa executavel, pode encontrar neste link ----> https://mega.nz/file/gGsVTQpQ#vKWbbAH80dBZa1A2AHmavShUAU6rWl045OBMhXVT8Sw
+//Caso queira baixar o executavel, pode encontra-lo neste link ----> https://mega.nz/file/gGsVTQpQ#vKWbbAH80dBZa1A2AHmavShUAU6rWl045OBMhXVT8Sw
 Video de apresentação do software: https://streamable.com/wkcn3j
 Funcionalidades: 
 Para fazer o backup é facil, ele gera apenas um arquivo no excel em csv.
