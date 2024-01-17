@@ -10,3 +10,6 @@ Tab index adicionado, ele vai passando de campo em campo.
 INSTALAÇÃO
 
 BAIXE O EXE E CRIE UMA PASTA NO C: CHAMADA "dados"
+
+
+C:/dados
