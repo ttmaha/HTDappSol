@@ -88,14 +88,14 @@
             this.textBoxHistoricoQueixa.Multiline = true;
             this.textBoxHistoricoQueixa.Name = "textBoxHistoricoQueixa";
             this.textBoxHistoricoQueixa.Size = new System.Drawing.Size(398, 95);
-            this.textBoxHistoricoQueixa.TabIndex = 3;
+            this.textBoxHistoricoQueixa.TabIndex = 2;
             // 
             // textBoxCaracteristicaDor
             // 
             this.textBoxCaracteristicaDor.Location = new System.Drawing.Point(188, 312);
             this.textBoxCaracteristicaDor.Name = "textBoxCaracteristicaDor";
             this.textBoxCaracteristicaDor.Size = new System.Drawing.Size(398, 20);
-            this.textBoxCaracteristicaDor.TabIndex = 5;
+            this.textBoxCaracteristicaDor.TabIndex = 3;
             // 
             // label3
             // 
@@ -122,7 +122,7 @@
             this.textBoxOqueMelhora.Location = new System.Drawing.Point(188, 356);
             this.textBoxOqueMelhora.Name = "textBoxOqueMelhora";
             this.textBoxOqueMelhora.Size = new System.Drawing.Size(398, 20);
-            this.textBoxOqueMelhora.TabIndex = 7;
+            this.textBoxOqueMelhora.TabIndex = 4;
             // 
             // label5
             // 
@@ -139,7 +139,7 @@
             this.textBoxOquePiora.Location = new System.Drawing.Point(188, 399);
             this.textBoxOquePiora.Name = "textBoxOquePiora";
             this.textBoxOquePiora.Size = new System.Drawing.Size(398, 20);
-            this.textBoxOquePiora.TabIndex = 9;
+            this.textBoxOquePiora.TabIndex = 5;
             // 
             // label6
             // 
@@ -167,7 +167,7 @@
             this.textBoxTratamentosRealizados.Multiline = true;
             this.textBoxTratamentosRealizados.Name = "textBoxTratamentosRealizados";
             this.textBoxTratamentosRealizados.Size = new System.Drawing.Size(398, 59);
-            this.textBoxTratamentosRealizados.TabIndex = 14;
+            this.textBoxTratamentosRealizados.TabIndex = 7;
             // 
             // textBoxTraumas
             // 
@@ -175,7 +175,7 @@
             this.textBoxTraumas.Multiline = true;
             this.textBoxTraumas.Name = "textBoxTraumas";
             this.textBoxTraumas.Size = new System.Drawing.Size(343, 62);
-            this.textBoxTraumas.TabIndex = 17;
+            this.textBoxTraumas.TabIndex = 8;
             // 
             // label8
             // 
@@ -246,14 +246,14 @@
             this.textBoxDores.Multiline = true;
             this.textBoxDores.Name = "textBoxDores";
             this.textBoxDores.Size = new System.Drawing.Size(234, 33);
-            this.textBoxDores.TabIndex = 23;
+            this.textBoxDores.TabIndex = 9;
             // 
             // textBoxHoraDor
             // 
             this.textBoxHoraDor.Location = new System.Drawing.Point(188, 439);
             this.textBoxHoraDor.Name = "textBoxHoraDor";
             this.textBoxHoraDor.Size = new System.Drawing.Size(398, 20);
-            this.textBoxHoraDor.TabIndex = 24;
+            this.textBoxHoraDor.TabIndex = 6;
             // 
             // label9
             // 

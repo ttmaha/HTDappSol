@@ -97,6 +97,7 @@
             this.textBoxOutrasInfos = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.buttonSalvarFechar = new System.Windows.Forms.Button();
+            this.buttonVoltarSalvar = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -153,7 +154,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 54.73684F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 127F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 117F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 118F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 119F));
             this.tableLayoutPanel1.Controls.Add(this.checkBoxLombarInversao, 4, 2);
             this.tableLayoutPanel1.Controls.Add(this.checkBoxLombarRetificacao, 3, 2);
             this.tableLayoutPanel1.Controls.Add(this.checkBoxLombarHiperLordose, 2, 2);
@@ -183,7 +184,7 @@
             // 
             this.checkBoxLombarInversao.AutoSize = true;
             this.checkBoxLombarInversao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxLombarInversao.Location = new System.Drawing.Point(436, 137);
+            this.checkBoxLombarInversao.Location = new System.Drawing.Point(435, 137);
             this.checkBoxLombarInversao.Name = "checkBoxLombarInversao";
             this.checkBoxLombarInversao.Size = new System.Drawing.Size(78, 20);
             this.checkBoxLombarInversao.TabIndex = 12;
@@ -194,7 +195,7 @@
             // 
             this.checkBoxLombarRetificacao.AutoSize = true;
             this.checkBoxLombarRetificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxLombarRetificacao.Location = new System.Drawing.Point(319, 137);
+            this.checkBoxLombarRetificacao.Location = new System.Drawing.Point(318, 137);
             this.checkBoxLombarRetificacao.Name = "checkBoxLombarRetificacao";
             this.checkBoxLombarRetificacao.Size = new System.Drawing.Size(94, 20);
             this.checkBoxLombarRetificacao.TabIndex = 11;
@@ -205,7 +206,7 @@
             // 
             this.checkBoxLombarHiperLordose.AutoSize = true;
             this.checkBoxLombarHiperLordose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxLombarHiperLordose.Location = new System.Drawing.Point(192, 137);
+            this.checkBoxLombarHiperLordose.Location = new System.Drawing.Point(191, 137);
             this.checkBoxLombarHiperLordose.Name = "checkBoxLombarHiperLordose";
             this.checkBoxLombarHiperLordose.Size = new System.Drawing.Size(105, 20);
             this.checkBoxLombarHiperLordose.TabIndex = 10;
@@ -216,7 +217,7 @@
             // 
             this.checkBoxNormalLombar.AutoSize = true;
             this.checkBoxNormalLombar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxNormalLombar.Location = new System.Drawing.Point(89, 137);
+            this.checkBoxNormalLombar.Location = new System.Drawing.Point(88, 137);
             this.checkBoxNormalLombar.Name = "checkBoxNormalLombar";
             this.checkBoxNormalLombar.Size = new System.Drawing.Size(70, 20);
             this.checkBoxNormalLombar.TabIndex = 9;
@@ -227,7 +228,7 @@
             // 
             this.checkBoxToracicaInversao.AutoSize = true;
             this.checkBoxToracicaInversao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxToracicaInversao.Location = new System.Drawing.Point(436, 70);
+            this.checkBoxToracicaInversao.Location = new System.Drawing.Point(435, 70);
             this.checkBoxToracicaInversao.Name = "checkBoxToracicaInversao";
             this.checkBoxToracicaInversao.Size = new System.Drawing.Size(78, 20);
             this.checkBoxToracicaInversao.TabIndex = 8;
@@ -238,7 +239,7 @@
             // 
             this.checkBoxToraricaRetificacao.AutoSize = true;
             this.checkBoxToraricaRetificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxToraricaRetificacao.Location = new System.Drawing.Point(319, 70);
+            this.checkBoxToraricaRetificacao.Location = new System.Drawing.Point(318, 70);
             this.checkBoxToraricaRetificacao.Name = "checkBoxToraricaRetificacao";
             this.checkBoxToraricaRetificacao.Size = new System.Drawing.Size(94, 20);
             this.checkBoxToraricaRetificacao.TabIndex = 7;
@@ -249,7 +250,7 @@
             // 
             this.checkBoxToracicHipercifose.AutoSize = true;
             this.checkBoxToracicHipercifose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxToracicHipercifose.Location = new System.Drawing.Point(192, 70);
+            this.checkBoxToracicHipercifose.Location = new System.Drawing.Point(191, 70);
             this.checkBoxToracicHipercifose.Name = "checkBoxToracicHipercifose";
             this.checkBoxToracicHipercifose.Size = new System.Drawing.Size(95, 20);
             this.checkBoxToracicHipercifose.TabIndex = 6;
@@ -260,7 +261,7 @@
             // 
             this.checkBoxNormalTorarica.AutoSize = true;
             this.checkBoxNormalTorarica.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxNormalTorarica.Location = new System.Drawing.Point(89, 70);
+            this.checkBoxNormalTorarica.Location = new System.Drawing.Point(88, 70);
             this.checkBoxNormalTorarica.Name = "checkBoxNormalTorarica";
             this.checkBoxNormalTorarica.Size = new System.Drawing.Size(70, 20);
             this.checkBoxNormalTorarica.TabIndex = 5;
@@ -271,7 +272,7 @@
             // 
             this.checkBoxCervicalInversao.AutoSize = true;
             this.checkBoxCervicalInversao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxCervicalInversao.Location = new System.Drawing.Point(436, 3);
+            this.checkBoxCervicalInversao.Location = new System.Drawing.Point(435, 3);
             this.checkBoxCervicalInversao.Name = "checkBoxCervicalInversao";
             this.checkBoxCervicalInversao.Size = new System.Drawing.Size(78, 20);
             this.checkBoxCervicalInversao.TabIndex = 4;
@@ -282,7 +283,7 @@
             // 
             this.checkBoxCervicalRetificacao.AutoSize = true;
             this.checkBoxCervicalRetificacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxCervicalRetificacao.Location = new System.Drawing.Point(319, 3);
+            this.checkBoxCervicalRetificacao.Location = new System.Drawing.Point(318, 3);
             this.checkBoxCervicalRetificacao.Name = "checkBoxCervicalRetificacao";
             this.checkBoxCervicalRetificacao.Size = new System.Drawing.Size(94, 20);
             this.checkBoxCervicalRetificacao.TabIndex = 3;
@@ -293,7 +294,7 @@
             // 
             this.checkBoxCervicalHiperlordose.AutoSize = true;
             this.checkBoxCervicalHiperlordose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxCervicalHiperlordose.Location = new System.Drawing.Point(192, 3);
+            this.checkBoxCervicalHiperlordose.Location = new System.Drawing.Point(191, 3);
             this.checkBoxCervicalHiperlordose.Name = "checkBoxCervicalHiperlordose";
             this.checkBoxCervicalHiperlordose.Size = new System.Drawing.Size(105, 20);
             this.checkBoxCervicalHiperlordose.TabIndex = 2;
@@ -304,7 +305,7 @@
             // 
             this.checkBoxNormalCervical.AutoSize = true;
             this.checkBoxNormalCervical.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxNormalCervical.Location = new System.Drawing.Point(89, 3);
+            this.checkBoxNormalCervical.Location = new System.Drawing.Point(88, 3);
             this.checkBoxNormalCervical.Name = "checkBoxNormalCervical";
             this.checkBoxNormalCervical.Size = new System.Drawing.Size(70, 20);
             this.checkBoxNormalCervical.TabIndex = 1;
@@ -348,7 +349,7 @@
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47.11538F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 52.88462F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132F));
             this.tableLayoutPanel2.Controls.Add(this.checkBoxElevaoE, 2, 1);
             this.tableLayoutPanel2.Controls.Add(this.checkBoxAnteversao, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.checkBoxRetroversao, 0, 1);
@@ -367,7 +368,7 @@
             // 
             this.checkBoxElevaoE.AutoSize = true;
             this.checkBoxElevaoE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxElevaoE.Location = new System.Drawing.Point(256, 97);
+            this.checkBoxElevaoE.Location = new System.Drawing.Point(255, 97);
             this.checkBoxElevaoE.Name = "checkBoxElevaoE";
             this.checkBoxElevaoE.Size = new System.Drawing.Size(96, 20);
             this.checkBoxElevaoE.TabIndex = 18;
@@ -400,7 +401,7 @@
             // 
             this.checkBoxElevacaoD.AutoSize = true;
             this.checkBoxElevacaoD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxElevacaoD.Location = new System.Drawing.Point(256, 3);
+            this.checkBoxElevacaoD.Location = new System.Drawing.Point(255, 3);
             this.checkBoxElevacaoD.Name = "checkBoxElevacaoD";
             this.checkBoxElevacaoD.Size = new System.Drawing.Size(97, 20);
             this.checkBoxElevacaoD.TabIndex = 15;
@@ -602,7 +603,7 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.75494F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 161F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 111F));
             this.tableLayoutPanel4.Controls.Add(this.checkBoxATMProfunda, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.checkBoxClasse3, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.checkBoxATMAberta, 0, 0);
@@ -620,7 +621,7 @@
             // 
             this.checkBoxATMProfunda.AutoSize = true;
             this.checkBoxATMProfunda.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxATMProfunda.Location = new System.Drawing.Point(507, 3);
+            this.checkBoxATMProfunda.Location = new System.Drawing.Point(506, 3);
             this.checkBoxATMProfunda.Name = "checkBoxATMProfunda";
             this.checkBoxATMProfunda.Size = new System.Drawing.Size(80, 20);
             this.checkBoxATMProfunda.TabIndex = 26;
@@ -631,7 +632,7 @@
             // 
             this.checkBoxClasse3.AutoSize = true;
             this.checkBoxClasse3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxClasse3.Location = new System.Drawing.Point(668, 3);
+            this.checkBoxClasse3.Location = new System.Drawing.Point(667, 3);
             this.checkBoxClasse3.Name = "checkBoxClasse3";
             this.checkBoxClasse3.Size = new System.Drawing.Size(78, 20);
             this.checkBoxClasse3.TabIndex = 25;
@@ -642,7 +643,7 @@
             // 
             this.checkBoxATMAberta.AutoSize = true;
             this.checkBoxATMAberta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxATMAberta.Location = new System.Drawing.Point(357, 3);
+            this.checkBoxATMAberta.Location = new System.Drawing.Point(356, 3);
             this.checkBoxATMAberta.Name = "checkBoxATMAberta";
             this.checkBoxATMAberta.Size = new System.Drawing.Size(66, 20);
             this.checkBoxATMAberta.TabIndex = 24;
@@ -664,7 +665,7 @@
             // 
             this.checkBoxClasse2.AutoSize = true;
             this.checkBoxClasse2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxClasse2.Location = new System.Drawing.Point(167, 3);
+            this.checkBoxClasse2.Location = new System.Drawing.Point(166, 3);
             this.checkBoxClasse2.Name = "checkBoxClasse2";
             this.checkBoxClasse2.Size = new System.Drawing.Size(78, 20);
             this.checkBoxClasse2.TabIndex = 22;
@@ -676,7 +677,7 @@
             this.tableLayoutPanel5.ColumnCount = 3;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.45228F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.54772F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 230F));
             this.tableLayoutPanel5.Controls.Add(this.checkBoxMordidaCruzadaE, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.checkBoxMordidaCruzadaBilateral, 2, 0);
             this.tableLayoutPanel5.Controls.Add(this.checkBoxMordidaCruzadaD, 1, 0);
@@ -703,7 +704,7 @@
             // 
             this.checkBoxMordidaCruzadaBilateral.AutoSize = true;
             this.checkBoxMordidaCruzadaBilateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxMordidaCruzadaBilateral.Location = new System.Drawing.Point(549, 3);
+            this.checkBoxMordidaCruzadaBilateral.Location = new System.Drawing.Point(548, 3);
             this.checkBoxMordidaCruzadaBilateral.Name = "checkBoxMordidaCruzadaBilateral";
             this.checkBoxMordidaCruzadaBilateral.Size = new System.Drawing.Size(181, 20);
             this.checkBoxMordidaCruzadaBilateral.TabIndex = 24;
@@ -714,7 +715,7 @@
             // 
             this.checkBoxMordidaCruzadaD.AutoSize = true;
             this.checkBoxMordidaCruzadaD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxMordidaCruzadaD.Location = new System.Drawing.Point(284, 3);
+            this.checkBoxMordidaCruzadaD.Location = new System.Drawing.Point(283, 3);
             this.checkBoxMordidaCruzadaD.Name = "checkBoxMordidaCruzadaD";
             this.checkBoxMordidaCruzadaD.Size = new System.Drawing.Size(142, 20);
             this.checkBoxMordidaCruzadaD.TabIndex = 23;
@@ -754,7 +755,7 @@
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.24506F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.75494F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 219F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 246F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 247F));
             this.tableLayoutPanel6.Controls.Add(this.checkBoxEstrabismoDivergenteE, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.checkBoxEstrabismoDivergenteD, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.checkBoxEstrabismoConvergenteD, 0, 0);
@@ -771,7 +772,7 @@
             // 
             this.checkBoxEstrabismoDivergenteE.AutoSize = true;
             this.checkBoxEstrabismoDivergenteE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxEstrabismoDivergenteE.Location = new System.Drawing.Point(455, 3);
+            this.checkBoxEstrabismoDivergenteE.Location = new System.Drawing.Point(454, 3);
             this.checkBoxEstrabismoDivergenteE.Name = "checkBoxEstrabismoDivergenteE";
             this.checkBoxEstrabismoDivergenteE.Size = new System.Drawing.Size(175, 20);
             this.checkBoxEstrabismoDivergenteE.TabIndex = 26;
@@ -782,7 +783,7 @@
             // 
             this.checkBoxEstrabismoDivergenteD.AutoSize = true;
             this.checkBoxEstrabismoDivergenteD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxEstrabismoDivergenteD.Location = new System.Drawing.Point(674, 3);
+            this.checkBoxEstrabismoDivergenteD.Location = new System.Drawing.Point(673, 3);
             this.checkBoxEstrabismoDivergenteD.Name = "checkBoxEstrabismoDivergenteD";
             this.checkBoxEstrabismoDivergenteD.Size = new System.Drawing.Size(176, 20);
             this.checkBoxEstrabismoDivergenteD.TabIndex = 24;
@@ -816,7 +817,7 @@
             this.tableLayoutPanel7.ColumnCount = 3;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.45228F));
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.54772F));
-            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 229F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 230F));
             this.tableLayoutPanel7.Controls.Add(this.checkBoxHipoConvergenciaD, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.checkBoxHipoConvergenciaBilateral, 2, 0);
             this.tableLayoutPanel7.Controls.Add(this.checkBoxHipoConvergenciaE, 1, 0);
@@ -843,7 +844,7 @@
             // 
             this.checkBoxHipoConvergenciaBilateral.AutoSize = true;
             this.checkBoxHipoConvergenciaBilateral.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxHipoConvergenciaBilateral.Location = new System.Drawing.Point(549, 3);
+            this.checkBoxHipoConvergenciaBilateral.Location = new System.Drawing.Point(548, 3);
             this.checkBoxHipoConvergenciaBilateral.Name = "checkBoxHipoConvergenciaBilateral";
             this.checkBoxHipoConvergenciaBilateral.Size = new System.Drawing.Size(189, 20);
             this.checkBoxHipoConvergenciaBilateral.TabIndex = 24;
@@ -854,7 +855,7 @@
             // 
             this.checkBoxHipoConvergenciaE.AutoSize = true;
             this.checkBoxHipoConvergenciaE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxHipoConvergenciaE.Location = new System.Drawing.Point(284, 3);
+            this.checkBoxHipoConvergenciaE.Location = new System.Drawing.Point(283, 3);
             this.checkBoxHipoConvergenciaE.Name = "checkBoxHipoConvergenciaE";
             this.checkBoxHipoConvergenciaE.Size = new System.Drawing.Size(149, 20);
             this.checkBoxHipoConvergenciaE.TabIndex = 23;
@@ -908,12 +909,22 @@
             this.buttonSalvarFechar.UseVisualStyleBackColor = true;
             this.buttonSalvarFechar.Click += new System.EventHandler(this.buttonSalvarFechar_Click);
             // 
+            // buttonVoltarSalvar
+            // 
+            this.buttonVoltarSalvar.Location = new System.Drawing.Point(3, 611);
+            this.buttonVoltarSalvar.Name = "buttonVoltarSalvar";
+            this.buttonVoltarSalvar.Size = new System.Drawing.Size(98, 42);
+            this.buttonVoltarSalvar.TabIndex = 51;
+            this.buttonVoltarSalvar.Text = "Voltar/Salvar";
+            this.buttonVoltarSalvar.UseVisualStyleBackColor = true;
+            this.buttonVoltarSalvar.Click += new System.EventHandler(this.buttonVoltarSalvar_Click);
+            // 
             // FichaTresInspecao
             // 
-            this.AcceptButton = this.buttonSalvarFechar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1066, 655);
+            this.Controls.Add(this.buttonVoltarSalvar);
             this.Controls.Add(this.buttonSalvarFechar);
             this.Controls.Add(this.textBoxOutrasInfos);
             this.Controls.Add(this.label13);
@@ -1033,5 +1044,6 @@
         private System.Windows.Forms.TextBox textBoxOutrasInfos;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button buttonSalvarFechar;
+        private System.Windows.Forms.Button buttonVoltarSalvar;
     }
 }

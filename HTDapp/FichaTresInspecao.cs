@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace HTDapp
@@ -398,5 +399,26 @@ namespace HTDapp
             }
         }
 
+        private void buttonVoltarSalvar_Click(object sender, EventArgs e)
+        {
+           
+            
+            AtualizarDadosNoCSV(); // Chamada para atualizar dados antes de fechar
+            MessageBox.Show("Os dados foram salvos com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            FichaDoisAvaliacao fichaDois = new FichaDoisAvaliacao();
+            fichaDois.NomePaciente = labelNomePaciente.Text;
+            fichaDois.TelefonePaciente = labelTelefonePaciente.Text;
+
+            this.Close();
+
+           
+
+           
+            fichaDois.Show();
+
+
+
+        }
     }
 }
